@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		
+	</title>
+	<meta name="viewport"content="width=device-width,initial-scale=1/0">
+	<style >
+		body
+		{
+			background: grey;
+		}
+		.parent{
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+
+
+		}
+		
+		
+			.child{
+				border: 5px outset green;
+			font-size: 100%;
+			width: 5%;
+			padding: 1%;
+			margin: 1%;
+				
+			}
+		}
+		/*large scale devics*/
+		@media only screen and (min-width: 768px)and (max-width: 1024px){
+			.child{
+				width: 25%;
+				box-shadow: 0px 8px 8px -8px #000;
+			}
+		}
+	</style>
+
+</head>
+<body>
+<section class="parent">
+	<article class="child">
+		vamsi
+	</article>
+	<article class="child">bhargav</article>
+	<article class="child">Puneeth</article>
+	<article class="child">Rajesh</article>
+</section>
+</body>
+</html>
